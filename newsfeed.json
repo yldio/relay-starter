@@ -1,0 +1,94 @@
+{
+  "id": 1,
+  "type": "Newsfeed",
+  "articles": [{
+    "title": "Using a Persistent Local Queue in Node.js",
+    "author": "Pedro Teixeira",
+    "id": "d39db85d-6e33-4f8a-8bad-99a8ba0ed6fd",
+    "text": "<p>As we've seen in <a href=\"http://blog.yld.io/2016/05/10/introducing-queues\">the previous article of this series</a>, an in-memory queue can be useful in streamlining a work load and retrying by recovering from errors, but it's subject to some problems.</p>\n\n<p>If, for a period of time, the production of messages exceeds the worker capacity, the queue may</p>"
+  },
+  {
+    "title": "Announcing the HospitalRun Lisbon hackathon",
+    "author": "Igor Soarez",
+    "id": "f95d4f47-2e58-4a63-bba3-74c7b163d18b",
+    "text": "<p>We are proud to announce that we're helping organise and participating in a very important event for us: the <strong><a href=\"http://hospitalrun.io/lisbon/\">HospitalRun hackathon</a></strong>, on 18th June in Lisbon.</p>\n\n<p>HospitalRun is an open source, offline-first modern EMR/HIS platform built specifically for the developing world. The project aims to provide low-resource environments a</p>"
+  },
+  {
+    "title": "Introducing Queues in Node.js",
+    "author": "Pedro Teixeira",
+    "id": "1ae98d8f-7007-48a0-bac8-cd32fcc398b8",
+    "text": "<p>This is the first of a series of articles that will be diving into using work queues to manage asynchronous work in Node.js, extracted from <a href=\"http://nodepatternsbooks.com/\">the Node Patterns series</a>.</p>\n\n<p>Enjoy!</p>\n\n<hr>\n\n<p>It is common for applications to have workloads that can be processed asynchronously from application flows. A common example</p>"
+  },
+  {
+    "title": "Container Camp San Francisco 2016: Wrap-Up",
+    "author": "Luke Bond",
+    "id": "389eb264-a9da-4d21-b7f4-16c0f327404f",
+    "text": "<p>The fourth incarnation of Container Camp, and the second in San Francisco, took place on Friday April 15th. <a href=\"https://yld.io\">YLD</a> were in attendance and we've put together this follow-up blog post for those who couldn't be there.</p>\n\n<p>One of the great things about Container Camp has always been the broad representation</p>"
+  },
+  {
+    "title": "Encrypting Communication",
+      "author": "Pedro Teixeira",
+      "id": "39ddae93-f492-48e8-9fc2-727a28a8ef98",
+      "text": "<p>In <a href=\"http://blog.yld.io/2016/03/23/multiplexing-streams\">the previous post of this series</a> we saw how we could perform RPC on top of a multiplexed duplex stream. In this article we're going to show you how you increase the security of the client and the server applications by encrypting your communication channel and adding authentication.</p>\n\n<p>Enjoy!</p>"
+  },
+  {
+    "title": "My internship experience at YLD",
+      "author": "Olivia Kingsbury",
+      "id": "ba1be3f3-c2db-4584-aa1a-26f4578d8ff4",
+      "text": "<p>I got in touch with YLD for a 6 month marketing internship position and was interviewed in September 2015. After an initial Skype call, I was invited to the YLD office for an one-to-one interview with Head of Marketing, Laura Plaga. A week afterwards, I was offered a position and</p>"
+  },
+  {
+    "title": "Container Camp Day Zero",
+      "author": "Luke Bond",
+      "id": "572bffb5-eea7-4b2c-9f45-9099cce6c652",
+      "text": "<p>On the evening before Container Camp we attended the Joyent-sponsored \"Day Zero\" event at New Relic - an evening of demo-focused presentations around containers.</p>\n\n<p>Masterfully emceed by New Relic's Jacob Groundwater and boasting speakers from Mesosphere, Hashicorp and Joyent, I knew we'd be in for a treat.</p>\n\n<h2 id=\"buildingcontainersinpurebashandc\">Building Containers in</h2>"
+  },
+  {
+    "title": "Turning a stream into an RPC channel",
+      "author": "Pedro Teixeira",
+      "id": "7eb987b4-2283-425e-9591-a55be1c73c33",
+      "text": "<p>Further developing <a href=\"http://blog.yld.io/2016/03/23/multiplexing-streams\">our refrigerator project</a>, you may want to add not only new sensors, but also some new functions like changing the fridge target temperature, starting a defrost cycle, or even turning it on or off. We could expose some of these functions as events to be sent by the</p>"
+  },
+  {
+    "title": "The Linux Container Ecosystem - A pre Container Camp Primer",
+      "author": "Luke Bond",
+      "id": "14f81da6-fa00-410a-a16e-19aa707a4dfd",
+      "text": "<p><a href=\"https://container.camp\">Container Camp number 4</a> is just around the corner on the 15th of April 2016 at Bespoke in downtown San Francisco. As proud supporters of Container Camp, keen Linux Container enthusiasts, and early adopters, we thought we'd take the opportunity to put together a Linux Container ecosystem overview as your</p>"
+  },
+  {
+    "title": "Multiplexing Streams",
+      "author": "Pedro Teixeira",
+      "id": "557d9f31-307c-4621-a336-6a9fa9c4bdc7",
+      "text": "<p>In the previous article of this series \"Using a Remote Emitter\", we showed you how we can easily propagate events between Node.js processes.</p>\n\n<p>This next article builds on this, showing you how you to apply a duplex stream to it, inside it, transport several streams, and create independent channels</p>"
+  },
+  {
+    "title": "QCon London 2016",
+      "author": "Luke Bond",
+      "id": "247e086a-448a-4e3c-b218-97e00c21b298",
+      "text": "<p>On March 7-9 in London I attended my first QCon. Organised by InfoQ, QCon is now in its tenth year and appears to be going from strength to strength.</p>\n\n<p>QCon is a developer conference that aims to appeal to a broad range of developers; from enterprise Java developers to cutting-edge</p>"
+  },
+  {
+    "title": "Using a Remote Emitter",
+      "author": "Pedro Teixeira",
+      "id": "d344a0bb-a1dc-447f-8250-2d70b88f1d3f",
+      "text": "<p>In <a href=\"http://blog.yld.io/2015/12/15/using-an-event-emitter\">a previous article</a> we covered the Event Emitter pattern, which allows you to somewhat detach the producer of events from the consumer. This pattern may also be useful for providing a means of communication between two processes: process A connects to process B, and they can both send events</p>"
+  },
+  {
+    "title": "Getting Started with rkt",
+      "author": "Luke Bond",
+      "id": "dc9f1fee-b3b4-437a-9f37-cdb7974cc599",
+      "text": "<p>This February, CoreOS announced that their <a href=\"https://coreos.com/blog/rkt-hits-1.0.html\" target=\"_blank\">rkt container runtime had graduated to version 1.0</a>. rkt has come a long way since its initial announcement in December 2014, so now’s a good time to take a closer look and consider how it fits into the rapidly changing container ecosystem.</p>"
+  },
+  {
+    "title": "Building a TCP service using Node.js",
+      "author": "Pedro Teixeira",
+      "id": "6ee5c664-f306-4cad-9cd3-36fece38bb00",
+      "text": "<p>Building a Web application using a framework like PHP, Django or Rails can quickly lead to monolithic applications in which you try to cram in every little bit of functionality.</p>\n\n<p>This happens not because of the web framework itself, but because these frameworks are designed to build consumer-facing apps and</p>"
+  },
+  {
+    "title": "Squeeze the juice out of Node",
+      "author": "Igor Soarez",
+      "id": "8ac2a035-3c4c-43fa-b07c-69868a3da8a9",
+      "text": "<p>— <em>an exploration of how Node.js handles HTTP connections</em> —</p>\n\n<p>Why is this Node service only handling X requests per second but neither memory, CPU nor network usage is saturated? How does Node handle HTTP connections? Can it process more than one request at the same time for a single non-HTTP/</p>"
+  }]
+}
